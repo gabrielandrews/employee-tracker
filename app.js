@@ -1,6 +1,6 @@
 const inquirer = require("inquirer")
 const cTable = require('console.table');
-const EmployeeDatabase = require('./lib/EmployeeDatabase');
+const EmployeeDatabase = require('./lib/EmployeeDatabase.js');
 
 const options = [
     "View all Deparments", 
